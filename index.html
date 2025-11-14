@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DR MOHAMED - تطوير مواقع ويب احترافية</title>
+  <meta name="description" content="أنا DR MOHAMED، مطور مواقع ويب محترف، أقدم خدمات تصميم وتطوير المواقع، متاجر إلكترونية، صفحات هبوط، وتحسين تجربة المستخدم.">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80') no-repeat center center/cover;
+      color: #fff;
+      overflow-x: hidden;
+    }
+    header {
+      background: rgba(13, 71, 161, 0.8);
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      backdrop-filter: blur(5px);
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: auto;
+      background: rgba(0,0,0,0.5);
+      border-radius: 15px;
+      margin-bottom: 40px;
+      backdrop-filter: blur(5px);
+    }
+    .banner h2 {
+      font-size: 2.5em;
+      text-align: center;
+      margin-bottom: 20px;
+      animation: slideInTop 1.5s ease-out;
+    }
+    .banner p {
+      font-size:1.2em;
+      line-height:1.6;
+      animation: fadeZoom 2s ease-out;
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+    }
+    @keyframes slideInTop {
+      0% {opacity:0; transform: translateY(-50px);}
+      100% {opacity:1; transform: translateY(0);}
+    }
+    @keyframes fadeZoom {
+      0% {opacity:0; transform: scale(0.8);}
+      100% {opacity:1; transform: scale(1);}
+    }
+    .service-list, .contact-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 30px;
+    }
+    .service-item, .contact-item {
+      background: rgba(255,255,255,0.2);
+      padding: 15px 25px;
+      border-radius: 8px;
+      font-weight: bold;
+      text-align: center;
+      transition: transform 0.3s, background 0.3s;
+    }
+    .service-item:hover, .contact-item:hover {
+      transform: scale(1.05);
+      background: rgba(255,255,255,0.4);
+    }
+    a { color: #fff; text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="fade-in">DR MOHAMED - خبرة واحترافية في تطوير المواقع</h1>
+    <nav>
+      <a href="#about">عنّي</a>
+      <a href="#services">الخدمات</a>
+      <a href="#projects">الأعمال</a>
+      <a href="#contact">تواصل</a>
+      <a href="#khamsat">ملفي على خمسات</a>
+    </nav>
+  </header>
+
+  <section id="about" class="section banner">
+    <h2>عنّي</h2>
+    <p>
+      أنا <strong>DR MOHAMED</strong>، مطور مواقع شغوف بإنشاء مواقع ويب احترافية وسريعة الاستجابة. أعمل على تحويل أفكارك إلى تجارب رقمية مذهلة.
+      خبرتي تشمل <strong>HTML, CSS, JavaScript</strong> وبناء أنظمة تفاعلية.
+    </p>
+  </section>
+
+  <section id="services" class="section banner">
+    <h2>الخدمات</h2>
+    <p>أقدم مجموعة متكاملة من الخدمات الرقمية لتطوير عملك على الإنترنت.</p>
+    <div class="service-list">
+      <div class="service-item">تصميم وتطوير مواقع ويب</div>
+      <div class="service-item">متاجر إلكترونية متكاملة</div>
+      <div class="service-item">صفحات هبوط Landing Pages</div>
+      <div class="service-item">تحسين تجربة المستخدم UX/UI</div>
+      <div class="service-item">إدارة وصيانة المواقع</div>
+    </div>
+  </section>
+
+  <section id="projects" class="section banner">
+    <h2>الأعمال السابقة</h2>
+    <div class="service-list">
+      <div class="service-item">موقع شركة تعريفي</div>
+      <div class="service-item">متجر إلكتروني متكامل</div>
+      <div class="service-item">صفحة هبوط إعلانية</div>
+    </div>
+  </section>
+
+  <section id="contact" class="section banner">
+    <h2>تواصل معي</h2>
+    <div class="contact-list">
+      <div class="contact-item">واتساب: <a href="https://wa.me/201063535636">01063535636</a></div>
+      <div class="contact-item">إنستغرام: <a href="https://instagram.com/dr.mohamed.abdulnabi">dr.mohamed.abdulnabi</a></div>
+      <div class="contact-item">البريد الإلكتروني: <a href="mailto:mohamedabdulnabi767@gmail.com">mohamedabdulnabi767@gmail.com</a></div>
+    </div>
+  </section>
+
+  <section id="khamsat" class="section banner">
+    <h2>ملفي على خمسات</h2>
+    <p>يمكنك زيارة ملفي الشخصي على <a href="https://khamsat.com/user/drmohamed" target="_blank">خمسات</a> لمشاهدة خدماتي وطلب أعمال مباشرة.</p>
+  </section>
+</body>
+</html>
